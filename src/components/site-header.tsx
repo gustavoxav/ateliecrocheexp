@@ -11,7 +11,7 @@ export function SiteHeader() {
         </Link>
         <nav className="flex items-center gap-4">
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/luiza_boscolo/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors duration-200 hover:text-foreground"

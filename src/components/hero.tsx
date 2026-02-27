@@ -8,7 +8,7 @@ export function Hero() {
 
       <div className="relative z-10 flex flex-col items-center gap-4">
         <span className="inline-block rounded-full bg-accent/15 px-3 py-1 font-sans text-xs font-medium uppercase tracking-widest text-accent-foreground/80 md:text-xs">
-          Copa do Mundo 2026
+          Venha para a Copa do Mundo 2026
         </span>
 
         <h1 className="max-w-lg font-serif text-3xl font-bold leading-tight tracking-tight text-foreground text-balance md:text-5xl md:leading-tight">

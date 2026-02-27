@@ -77,7 +77,11 @@ export function ProductCarousel({
         {showArrows && count > 1 && (
           <>
             <button
-              onClick={() => api?.scrollPrev()}
+              onClick={(e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                api?.scrollPrev()
+              }}
               className="absolute left-1.5 top-1/2 -translate-y-1/2 flex h-7 w-7 items-center justify-center rounded-full bg-card/80 text-card-foreground opacity-0 backdrop-blur-sm transition-opacity duration-200 group-hover:opacity-100"
               aria-label="Imagem anterior"
             >
@@ -95,7 +99,11 @@ export function ProductCarousel({
               </svg>
             </button>
             <button
-              onClick={() => api?.scrollNext()}
+              onClick={(e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                api?.scrollNext()
+              }}
               className="absolute right-1.5 top-1/2 -translate-y-1/2 flex h-7 w-7 items-center justify-center rounded-full bg-card/80 text-card-foreground opacity-0 backdrop-blur-sm transition-opacity duration-200 group-hover:opacity-100"
               aria-label="Próxima imagem"
             >
@@ -127,7 +135,11 @@ export function ProductCarousel({
                   ? "w-4 bg-card"
                   : "w-1.5 bg-card/50"
               )}
-              onClick={() => api?.scrollTo(index)}
+              onClick={(e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                api?.scrollTo(index)
+              }}
               aria-label={`Ir para imagem ${index + 1}`}
             />
           ))}

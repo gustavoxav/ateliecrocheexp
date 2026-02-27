@@ -116,7 +116,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1.5 inline-block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary/60" />
-                    Linha de algodão premium
+                    Linha de algodão
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1.5 inline-block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary/60" />
@@ -124,7 +124,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1.5 inline-block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary/60" />
-                    Prazo de confecção: 5 a 7 dias úteis
+                    Prazo de confecção: a conversar
                   </li>
                 </ul>
               </div>
